@@ -1,10 +1,17 @@
 import React from 'react'
 
 const Header = () => {
-    const title = "Header"
+    
   return (
     <div>
-      {title}
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Login</li>
+          <li>Contacto</li>
+          <li>Sobre nosotros</li>
+        </ul>
+      </nav>
     </div>
   )
 }
