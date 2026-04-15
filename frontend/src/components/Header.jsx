@@ -1,16 +1,13 @@
-import React from 'react'
+import { Link} from 'react-router-dom'
 
 const Header = () => {
     
   return (
     <div>
       <nav>
-        <ul>
-          <li>Home</li>
-          <li>Login</li>
-          <li>Contacto</li>
-          <li>Sobre nosotros</li>
-        </ul>
+       <Link to="/">Home</Link>
+        <Link to="login">Login</Link>
+         <Link to="signUp">SignUp</Link>
       </nav>
     </div>
   )

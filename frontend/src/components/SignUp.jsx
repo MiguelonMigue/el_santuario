@@ -14,18 +14,18 @@ const SignUp = () => {
     const handleChange = (e) => {
         setFormData({
             ...formData, 
-            [e.target.formData]: e.target.value
+            [e.target.name]: e.target.value
         })
     }
 
 
     function handleSubmit (e) {
         e.preventDefault();
-        alert(formData)
+        alert("Registro exitoso!!")
     }
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="formulario">
         <label htmlFor="">Nombre: </label>
         <input type="text" name="name" value={formData.name} onChange={handleChange} />
         <label htmlFor="">Usuario</label>
@@ -40,6 +40,7 @@ const SignUp = () => {
         <label htmlFor="">Telefono</label>
         <input type="text" name="phone" value={formData.phone}
         onChange={handleChange} />
+        <input type="submit" />
       </form>
     </div>
   )
