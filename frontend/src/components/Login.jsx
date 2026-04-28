@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import Header from './Header'
 
 const Login = () => {
   const [formData, setFormData] = useState({
@@ -19,6 +19,7 @@ const Login = () => {
     
   return (
     <div>
+      <Header/>
       <form onSubmit={handleSubmit} className='formulario'>
         <label htmlFor="">Usuario</label>
         <input type="text" name='username' value={formData.username}/>

@@ -1,5 +1,5 @@
 import { useState } from "react"
-
+import Header from "./Header"
 
 const SignUp = () => {
     const [formData, setFormData] = useState(
@@ -25,6 +25,7 @@ const SignUp = () => {
     }
   return (
     <div>
+      <Header/>
       <form onSubmit={handleSubmit} className="formulario">
         <label htmlFor="">Nombre: </label>
         <input type="text" name="name" value={formData.name} onChange={handleChange} />
