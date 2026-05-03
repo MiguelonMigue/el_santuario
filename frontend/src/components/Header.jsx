@@ -12,6 +12,8 @@ const Header = () => {
       <Link className='enlace' to="/almuerzoEspeciales">Almuerzos especiales</Link>
       <Link className='enlace' to="/bebidas">Bebidas</Link>
       <Link className='enlace' to="/postres">Postres</Link>
+            <Link className='enlace' to="/edad">Edad</Link>
+
       </nav>
     </div>
   )

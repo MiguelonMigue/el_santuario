@@ -6,6 +6,7 @@ import AlmuerzosDia from './components/AlmuerzosDia'
 import AlmuerzosEspeciales from './components/AlmuerzosEspeciales'
 import Bebidas from './components/Bebidas'
 import Postres from './components/Postres'
+import Edad from './components/Edad'
 import './App.css'
 function App(){
   return(
@@ -18,6 +19,7 @@ function App(){
       <Route path='/almuerzoEspeciales' element={<AlmuerzosEspeciales/>}/>
       <Route path='/bebidas' element={<Bebidas/>}/>
       <Route path='/postres' element={<Postres/>}/>
+      <Route path='/edad' element={<Edad/>}/>
     </Routes>
     </HashRouter>
   )
