@@ -13,8 +13,8 @@ const Carrusel = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h5>Bistec a Caballo</h5>
+          <p>Con patacón o pure, arroz y ensalada</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -24,8 +24,8 @@ const Carrusel = () => {
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h5>Salmón en maracuyá</h5>
+          <p>Con puré o patacón, arroz y ensalada</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -35,9 +35,9 @@ const Carrusel = () => {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h5>Third slide label</h5>
+          <h5>Plato completo de ajiaco santafereño</h5>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Sopa de ajiaco, pechuga desmenuzada, patacón, arroz, aguacate, alcaparras y crema de leche
           </p>
         </Carousel.Caption>
       </Carousel.Item>

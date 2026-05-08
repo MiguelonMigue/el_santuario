@@ -1,5 +1,7 @@
 import Header from "./Header"
 import Footer from "./Footer"
+import Carrusel from "./Carrusel"
+import Card from "./Card"
 
 const AlmuerzosDia = () => {
   
@@ -91,6 +93,7 @@ const AlmuerzosDia = () => {
     <div>
         <Header/>
         <h1 className="titulo_principal">Le ofrezco del día!!</h1>
+        <Card/>
         
         {platos.map((plato)=>(
           <div key={plato.id}>
@@ -105,7 +108,7 @@ const AlmuerzosDia = () => {
 
             </div>
         ))}
-        
+        <Carrusel/>
         
       <Footer/>
     </div>

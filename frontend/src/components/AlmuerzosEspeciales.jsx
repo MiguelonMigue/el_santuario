@@ -1,5 +1,7 @@
 import Header from "./Header"
 import Footer from "./Footer"
+import Card from "./Card"
+import Carrusel from "./Carrusel"
 const AlmuerzosEspeciales = () => {
   const platos = [{
     id: 1,
@@ -15,9 +17,15 @@ const AlmuerzosEspeciales = () => {
     <div>
         <Header/>
         <h1 className="titulo_principal">Le ofrezco!!!</h1>
+        <Card/>
         {platos.map((plato)=>(
           <div key={plato.id}>
             <h2>{plato.dia}</h2>
+            <p>{plato.carnes}</p>
+            <p>{plato.pescados}</p>
+            <p>{plato.acompanamientos}</p>
+            <p>{plato.ensalada}</p>
+          <Carrusel/>
           </div>
         ))}
       <Footer/>
