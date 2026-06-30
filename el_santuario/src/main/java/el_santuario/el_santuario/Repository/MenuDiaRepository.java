@@ -1,4 +1,8 @@
 package el_santuario.el_santuario.Repository;
 
-public class MenuDiaRepository {
+import el_santuario.el_santuario.Entity.MenuDia;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MenuDiaRepository extends JpaRepository<MenuDia,Long> {
+
 }
