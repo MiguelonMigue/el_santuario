@@ -7,15 +7,17 @@ import jakarta.persistence.*;
 public class MenuDia {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
-    String entrada;
-    String proteina;
-    String acompanamiento;
+    private Long id;
+    private String entrada;
+    private String proteina;
+    private String acompanamiento;
+
+
 
     public MenuDia() {
     }
 
-    public MenuDia(Long id, String entrada, String proteina, String acompañamiento) {
+    public MenuDia(Long id, String entrada, String proteina, String acompanamiento) {
         this.id = id;
         this.entrada = entrada;
         this.proteina = proteina;
