@@ -1,4 +1,7 @@
 package el_santuario.el_santuario.Repository;
 
-public interface EspecialRepository {
+import el_santuario.el_santuario.Entity.Especial;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EspecialRepository extends JpaRepository<Especial, Long> {
 }
