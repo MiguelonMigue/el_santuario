@@ -1,4 +1,13 @@
 package el_santuario.el_santuario.DTO;
 
-public record DatosActualizacionBebida() {
+import jakarta.validation.constraints.NotNull;
+
+public record DatosActualizacionBebida(
+        @NotNull
+        Long id,
+        String urlImagen,
+        String nombre,
+        String tipoEnvase,
+        Double precio
+) {
 }

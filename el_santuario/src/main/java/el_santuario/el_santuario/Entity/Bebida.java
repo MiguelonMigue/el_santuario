@@ -1,5 +1,6 @@
 package el_santuario.el_santuario.Entity;
 
+import el_santuario.el_santuario.DTO.DatosActualizacionBebida;
 import el_santuario.el_santuario.DTO.DatosBebida;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -30,5 +31,18 @@ public class Bebida {
         this.precio = datos.precio();
     }
 
-
+public void actualizarInformacion(DatosActualizacionBebida datos){
+        if(datos.urlImagen!=null){
+            this.urlImagen=datos.urlImagen();
+        }
+        if(datos.nombre!=null){
+            this.nombre = datos.nombre();
+        }
+        if(datos.tipoEnvase!=null){
+            this.tipoEnvase = datos.tipoEnvase();
+        }
+        if(datos.precio!=null){
+            this.precio = datos.precio();
+        }
+}
 }
