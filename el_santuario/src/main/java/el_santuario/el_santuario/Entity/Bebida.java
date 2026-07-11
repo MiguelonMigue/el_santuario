@@ -32,16 +32,16 @@ public class Bebida {
     }
 
 public void actualizarInformacion(DatosActualizacionBebida datos){
-        if(datos.urlImagen!=null){
+        if(datos.urlImagen()!=null){
             this.urlImagen=datos.urlImagen();
         }
-        if(datos.nombre!=null){
+        if(datos.nombre()!=null){
             this.nombre = datos.nombre();
         }
-        if(datos.tipoEnvase!=null){
+        if(datos.tipoEnvase()!=null){
             this.tipoEnvase = datos.tipoEnvase();
         }
-        if(datos.precio!=null){
+        if(datos.precio()!=null){
             this.precio = datos.precio();
         }
 }
