@@ -23,11 +23,15 @@ public class Postre {
     public Postre(DatosPostre datos){
         this.id = null;
         this.title = datos.title();
-        this.price = datos.price()
+        this.price = datos.price();
     }
 
     public void updateInformation(DatosActualizacionPostre datos){
-
+        if(datos.title()!=null){
+            this.title = datos.title();
+        } else if(datos.price()!=null){
+            this.price = datos.price();
+        }
     }
 
 

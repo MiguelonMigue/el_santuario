@@ -1,4 +1,11 @@
 package el_santuario.el_santuario.DTO;
 
-public record DatosActualizacionPostre() {
+import jakarta.validation.constraints.NotNull;
+
+public record DatosActualizacionPostre(
+        @NotNull
+        Long id,
+        String title,
+        Double price
+) {
 }
