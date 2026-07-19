@@ -1,0 +1,7 @@
+package el_santuario.el_santuario.DTO;
+
+public record DatosPostre(
+        String title,
+        Double price
+) {
+}
