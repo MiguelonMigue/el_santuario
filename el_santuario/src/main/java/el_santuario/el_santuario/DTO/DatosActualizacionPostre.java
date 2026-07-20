@@ -6,6 +6,7 @@ public record DatosActualizacionPostre(
         @NotNull
         Long id,
         String title,
-        Double price
+        Double price,
+        String urlImagen
 ) {
 }

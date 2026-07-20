@@ -2,6 +2,7 @@ package el_santuario.el_santuario.DTO;
 
 public record DatosPostre(
         String title,
-        Double price
+        Double price,
+        String urlImagen
 ) {
 }
