@@ -1,6 +1,6 @@
 import Header from "./Header"
 import Footer from "./Footer"
-import Card from "./Card"
+import Card from "./Tarjeta"
 import Carrusel from "./Carrusel"
 const AlmuerzosEspeciales = () => {
   const platos = [{

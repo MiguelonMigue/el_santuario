@@ -1,7 +1,7 @@
 import Header from "./Header"
 import Footer from "./Footer"
 import Carrusel from "./Carrusel"
-import Card from "./Card"
+import Card from "./Tarjeta"
 
 const AlmuerzosDia = () => {
   
@@ -10,7 +10,7 @@ const AlmuerzosDia = () => {
     dia: 'lunes',
     entradas: 'Cazuela de lentejas, crema de tomate, sopa de arroz',
     opcional: ' ó fruta',
-    carnes: 'Carne en bistec, Cerdo en piña, pierna pernil hawaiano, pierna pernil en salsa Mutec',
+    carnes: 'Carne en bistec, Cerdo en piña, pierna pernil hawaiano, pierna pernil en salsa Menutec',
     pescados: 'Trucha en salsa de mango',
     arrozEspecial : 'Arroz santuario',
     harinaPrincipal: 'Arroz blanco',

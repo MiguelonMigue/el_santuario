@@ -48,3 +48,8 @@ input{
 .titulo_secundario{
   color: #285A48;
 }
+
+.menu, .dia{
+  color:#B0E4CC;
+  background-color:#285A48
+}

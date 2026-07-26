@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Tarjeta from "./Tarjeta";
 import Header from "./Header";
 import Footer from "./Footer";
 import Carrusel from "./Carrusel";
@@ -9,14 +9,14 @@ const Home = () => {
   const mensaje =
     "Un lugar perfecto para venir a almorzar con tu familia, pareja y amigos!!!!";
 useEffect(()=>{
-  alert("Buenos días, sigan por favor!!!!")
+  alert("Buenaas tardes, sigan por favor!!!!")
 })
   return (
     <div>
       <Header />
       <h1 className="titulo_principal">{title}</h1>
       <p>{mensaje}</p>
-      <Card/>
+      <Tarjeta/>
         <Carrusel/>
       <div className="maps">
         <iframe
