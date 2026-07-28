@@ -2,8 +2,10 @@ import Header from "./Header"
 import Footer from "./Footer"
 import Carrusel from "./Carrusel"
 import Card from "./Tarjeta"
+import { useParams } from "react-router-dom"
 
 const AlmuerzosDia = () => {
+  const params = useParams()
   
   const platos = [{
     id: 1,

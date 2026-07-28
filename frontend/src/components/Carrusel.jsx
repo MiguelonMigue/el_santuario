@@ -1,6 +1,12 @@
 import Carousel from 'react-bootstrap/Carousel';
+import Button from 'react-bootstrap/esm/Button';
+import { useNavigate } from 'react-router-dom';
 
 const Carrusel = () => {
+  const navigate = useNavigate();
+  const irAlmuerzoDetalle = () =>{
+    navigate(`/almuerzoDia/${id}`)
+  }
   const almuerzosDia = [{
     id: 1,
     nombre: 'lunes',
@@ -58,6 +64,7 @@ const Carrusel = () => {
           <h5 className='dia'>{almuerzo.nombre}</h5>
           <p className='menu'>{almuerzo.menu1}</p>
           <p className='menu'>{almuerzo.menu2}</p>
+          <Button className='primary' onClick={irAlmuerzoDetalle(almuerzo.id)}>Ver más detalle</Button>
         </Carousel.Caption>
       </Carousel.Item>
         ))}

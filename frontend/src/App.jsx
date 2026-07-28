@@ -20,6 +20,7 @@ function App(){
       <Route path='/bebidas' element={<Bebidas/>}/>
       <Route path='/postres' element={<Postres/>}/>
       <Route path='/edad' element={<Edad/>}/>
+      <Route path='/almuerzoDia/:id' element={<AlmuerzosDia/>}/>
     </Routes>
     </HashRouter>
   )
