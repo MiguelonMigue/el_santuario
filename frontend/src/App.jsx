@@ -3,6 +3,7 @@ import Home from './components/Home'
 import Login from './components/Login'
 import SignUp from './components/SignUp'
 import AlmuerzosDia from './components/AlmuerzosDia'
+import AlmuerzoDiaDetalle from './components/AlmuerzoDiaDetalle'
 import AlmuerzosEspeciales from './components/AlmuerzosEspeciales'
 import Bebidas from './components/Bebidas'
 import Postres from './components/Postres'
@@ -20,7 +21,7 @@ function App(){
       <Route path='/bebidas' element={<Bebidas/>}/>
       <Route path='/postres' element={<Postres/>}/>
       <Route path='/edad' element={<Edad/>}/>
-      <Route path='/almuerzoDia/:id' element={<AlmuerzosDia/>}/>
+      <Route path='/almuerzoDia/:id' element={<AlmuerzoDiaDetalle/>}/>
     </Routes>
     </HashRouter>
   )
