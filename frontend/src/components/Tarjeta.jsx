@@ -4,10 +4,7 @@ import Card from 'react-bootstrap/Card';
 import { useNavigate } from 'react-router-dom';
 
 const Tarjeta = () => {
-  const navigate = useNavigate();
-  const irAlmuerzosDia = () =>{
-    navigate("/almuerzoDia")
-  }
+ 
   const precios = [{
     id: 1,
     semana: 'Entre semana',
@@ -30,7 +27,7 @@ const Tarjeta = () => {
             </Card.Text>
           ))}
         
-        <Button variant="primary" onClick={irAlmuerzosDia}>Almuerzos del día</Button>
+        
       </Card.Body>
     </Card>
   )
