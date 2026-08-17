@@ -58,3 +58,50 @@ input{
   
   height: 370px;
 }
+
+.salmon{
+  margin: 0 auto;
+}
+.iconos{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.pie_de_pagina{
+  font-size: 30px;
+  font-size: 1.5rem;
+  color: aqua;
+
+}
+.barra_nav{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  
+}
+
+@media screen and (max-width: 480px){
+
+  body{
+    background-color:#285A48;
+    
+  }
+ 
+  .barra_nav{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 1.5rem;
+    width: 100%;
+    
+    
+  }
+  .enlace{
+    text-align: left;
+    padding: 0.5rem 0;
+    width: 100%;
+  
+  }
+}

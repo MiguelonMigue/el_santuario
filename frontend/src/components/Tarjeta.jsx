@@ -1,7 +1,6 @@
 import Salmon from '../assets/salmon_maracuya.jpeg'
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import { useNavigate } from 'react-router-dom';
+
 
 const Tarjeta = () => {
  
@@ -15,7 +14,7 @@ const Tarjeta = () => {
     costo: '$20k'
   }]
   return (
-   <Card style={{ width: '18rem' }}>
+   <Card style={{ width: '18rem' }} className='salmon'>
       <Card.Img variant="top" src={Salmon} />
       <Card.Body>
         <Card.Title>Les ofrecermos los más deliciosos y económicos almuerzos del día y especiales</Card.Title>
